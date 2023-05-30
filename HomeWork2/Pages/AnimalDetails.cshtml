@@ -1,8 +1,13 @@
 ﻿@page
-@model HomeWork2.Pages.AnimalDetailsModel
-@{
-}
+@model AnimalDetailsModel
 
-<div>
-    AnimalDetails. Info about Animal
+<div class="card">
+  <h5 class="card-header">@Model.GetAnimal.Name</h5>
+  <div class="card-body">
+    <h5 class="card-title">Id: @Model.GetAnimal.Id</h5>
+    <h5 class="card-title">Sound: @Model.GetAnimal.Sound</h5>
+    <a href="" class="btn btn-primary">To all animals</a>
+    <a href="#" class="btn btn-primary">Add animal</a>
+  </div>
 </div>
+

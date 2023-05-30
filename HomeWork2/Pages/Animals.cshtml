@@ -8,23 +8,23 @@
 }
 
 <div class="container">
-  <div class="row justify-content-center">
-    <div class="col-sm-6">
-      <h2 class="text-center mt-4 text-white">Animals</h2>
-
-      <div class="card m-4">
-        <ul class="list-group list-group-flush" style="background-color: #006666">
-          @foreach (var animal in animals)
-          {
-            <li class="list-group-item bg-info m-2">
-              <p class="mb-1 text-white"><small>Id:</small> @animal.Id</p>
-              <p class="mb-1 text-white"><small>Name:</small> @animal.Name</p>
-              <p class="mb-0 text-white"><small>Sound:</small> @animal.Sound</p>
-            </li>
-          }
-        </ul>
-      </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-6">
+            <h2 class="text-center mt-4 text-white">Animals</h2>
+            <div class="card m-4">
+                <ul class="list-group list-group-flush" style="background-color: #006666">
+                    @foreach (var animal in animals)
+                    {
+                        <li class="list-group-item bg-info m-2">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-1 text-white">@animal.Name</p>
+                                <a class="mb-1 text-white"  asp-page="/AnimalDetails" asp-route-animalId="@animal.Id">Info</a>
+                            </div>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
