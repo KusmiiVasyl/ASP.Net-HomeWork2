@@ -15,16 +15,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\ASP.NET\Projects\HomeWork2\HomeWork2
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/ASP.NET/Projects/HomeWork2/HomeWork2/Pages/AddAnimal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQW5pbWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.NET/Projects/HomeWork2/HomeWork2/Pages/AnimalDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWFsRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.NET/Projects/HomeWork2/HomeWork2/Pages/Animals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWFscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/ASP.NET/Projects/HomeWork2/HomeWork2/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/ASP.NET/Projects/HomeWork2/HomeWork2/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/ASP.NET/Projects/HomeWork2/HomeWork2/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/ASP.NET/Projects/HomeWork2/HomeWork2/Pages/Shared/_ValidationScriptsPartial.cshtml]
