@@ -1,8 +1,28 @@
 ﻿@page
 @model HomeWork2.Pages.AddAnimalModel
-@{
-}
 
-<div>
-    Form. Add Animal.
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-sm-6">
+            <h2 class="text-center mt-4 text-white mb-5">Add animal</h2>
+            <form asp-action="/AddAnimal">
+                <div class="mb-3 ">
+                    <input type="text" asp-for="InputAnimal!.Name" class="form-control" id="formGroupExampleInput" placeholder="Name">
+                    <span asp-validation-for="InputAnimal!.Name" class="form-label text-danger fw-bold h-100 d-inline-block"></span>
+                </div>
+                <div class="mb-3">
+                    <input type="text" asp-for="InputAnimal!.Sound" class="form-control" id="formGroupExampleInput2" placeholder="Sound">
+                    <span asp-validation-for="InputAnimal!.Sound" class="form-label text-danger fw-bold h-100 d-block"></span>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary mt-2 pe-4 ps-4 fw-bold text-uppercase" style="background-color: #004d4d; border:solid #b3ffff; color: #b3ffff;">
+                        Add
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
+
+

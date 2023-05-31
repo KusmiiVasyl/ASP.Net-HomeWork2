@@ -1,13 +1,25 @@
 ﻿@page
 @model AnimalDetailsModel
 
-<div class="card">
-  <h5 class="card-header">@Model.GetAnimal.Name</h5>
-  <div class="card-body">
-    <h5 class="card-title">Id: @Model.GetAnimal.Id</h5>
-    <h5 class="card-title">Sound: @Model.GetAnimal.Sound</h5>
-    <a href="" class="btn btn-primary">To all animals</a>
-    <a href="#" class="btn btn-primary">Add animal</a>
-  </div>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-sm-6">
+            <div class="card" style="background-color: #004d4d; border:solid #b3ffff; color: #b3ffff">
+                <h5 class="card-header">
+                    @Model.GetAnimal.Name
+                </h5>
+                <div class="card-body" style="background-color: #b3ffff; color: #004d4d">
+                    <h5 class="card-title">Id: @Model.GetAnimal.Id</h5>
+                    <h5 class="card-title">Sound: @Model.GetAnimal.Sound</h5>
+                    <a asp-page="/Animals" class="btn btn-primary mt-5" style="background-color: #004d4d; border:solid #b3ffff; color: #b3ffff">
+                        To all animals
+                    </a>
+                    <a asp-page="/AddAnimal" class="btn btn-primary mt-5" style="background-color: #004d4d; border:solid #b3ffff; color: #b3ffff">
+                        Add animal
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 

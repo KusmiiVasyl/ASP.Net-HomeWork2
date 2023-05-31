@@ -33,5 +33,13 @@ namespace HomeWork2.Services
         };
 
         public static List<Animal> GetAnimals() => _animals;
+
+        public static void AddAnimal(string name, string sound)
+        {
+            _animals.Add(new Animal() {
+                Id = _animals.Count + 1,
+                Name = name,
+                Sound = sound });
+        }
     }
 }
