@@ -24,3 +24,11 @@ E:\ASP.NET\Projects\HomeWork2\HomeWork2\obj\Debug\net6.0\refint\HomeWork2.dll
 E:\ASP.NET\Projects\HomeWork2\HomeWork2\obj\Debug\net6.0\HomeWork2.pdb
 E:\ASP.NET\Projects\HomeWork2\HomeWork2\obj\Debug\net6.0\HomeWork2.genruntimeconfig.cache
 E:\ASP.NET\Projects\HomeWork2\HomeWork2\obj\Debug\net6.0\ref\HomeWork2.dll
+E:\ASP.NET\Projects\HomeWork2\HomeWork2\obj\Debug\net6.0\HomeWork2.Resources.Resource.resources
+E:\ASP.NET\Projects\HomeWork2\HomeWork2\obj\Debug\net6.0\HomeWork2.csproj.GenerateResource.cache
+E:\ASP.NET\Projects\HomeWork2\HomeWork2\bin\Debug\net6.0\uk\HomeWork2.resources.dll
+E:\ASP.NET\Projects\HomeWork2\HomeWork2\obj\Debug\net6.0\HomeWork2.Resources.Resource.uk.resources
+E:\ASP.NET\Projects\HomeWork2\HomeWork2\obj\Debug\net6.0\uk\HomeWork2.resources.dll
+E:\ASP.NET\Projects\HomeWork2\HomeWork2\bin\Debug\net6.0\fr\HomeWork2.resources.dll
+E:\ASP.NET\Projects\HomeWork2\HomeWork2\obj\Debug\net6.0\HomeWork2.Resources.Resource.fr.resources
+E:\ASP.NET\Projects\HomeWork2\HomeWork2\obj\Debug\net6.0\fr\HomeWork2.resources.dll

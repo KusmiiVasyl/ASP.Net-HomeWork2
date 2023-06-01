@@ -7,10 +7,10 @@ namespace HomeWork2.Models
     {
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "PageAddAnimal_Form_ErrorMessageName")]
         public string Name { get; set; }
 
-        [Required]
+        [Required(ErrorMessageResourceType = typeof(Resources.Resource), ErrorMessageResourceName = "PageAddAnimal_Form_ErrorMessageSound")]
         public string Sound { get; set; }
     }
 }

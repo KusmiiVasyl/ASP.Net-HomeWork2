@@ -16,3 +16,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.navbar-nav .nav-item.active > .nav-link {
+    color: #fff;
+    background-color: #007f7f;
+}
