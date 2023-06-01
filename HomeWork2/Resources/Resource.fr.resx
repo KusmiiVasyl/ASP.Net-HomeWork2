@@ -162,4 +162,16 @@
   <data name="Nav.Animals" xml:space="preserve">
     <value>Animaux</value>
   </data>
+  <data name="PageHome.Text" xml:space="preserve">
+    <value>Page d'accueil</value>
+  </data>
+  <data name="PageAddAnimal.NameFormUpdate" xml:space="preserve">
+    <value>Mettre à jour l'animal</value>
+  </data>
+  <data name="PageAddAnimal.BtnUpdate" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="PageAnimals.RefUpdate" xml:space="preserve">
+    <value>Changement</value>
+  </data>
 </root>

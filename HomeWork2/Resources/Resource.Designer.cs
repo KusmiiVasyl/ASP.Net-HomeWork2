@@ -115,6 +115,15 @@ namespace HomeWork2.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Update.
+        /// </summary>
+        public static string PageAddAnimal_BtnUpdate {
+            get {
+                return ResourceManager.GetString("PageAddAnimal.BtnUpdate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The field of animal name is reqiured.
         /// </summary>
         public static string PageAddAnimal_Form_ErrorMessageName {
@@ -138,6 +147,15 @@ namespace HomeWork2.Resources {
         public static string PageAddAnimal_NameForm {
             get {
                 return ResourceManager.GetString("PageAddAnimal.NameForm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Update Animal.
+        /// </summary>
+        public static string PageAddAnimal_NameFormUpdate {
+            get {
+                return ResourceManager.GetString("PageAddAnimal.NameFormUpdate", resourceCulture);
             }
         }
         
@@ -187,11 +205,29 @@ namespace HomeWork2.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Update.
+        /// </summary>
+        public static string PageAnimals_RefUpdate {
+            get {
+                return ResourceManager.GetString("PageAnimals.RefUpdate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Animals.
         /// </summary>
         public static string PageAnimals_TextHead {
             get {
                 return ResourceManager.GetString("PageAnimals.TextHead", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Home page.
+        /// </summary>
+        public static string PageHome_Text {
+            get {
+                return ResourceManager.GetString("PageHome.Text", resourceCulture);
             }
         }
     }

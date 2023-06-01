@@ -135,6 +135,9 @@
   <data name="PageAddAnimal.BtnAdd" xml:space="preserve">
     <value>Add</value>
   </data>
+  <data name="PageAddAnimal.BtnUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
   <data name="PageAddAnimal.Form.ErrorMessageName" xml:space="preserve">
     <value>The field of animal name is reqiured</value>
   </data>
@@ -143,6 +146,9 @@
   </data>
   <data name="PageAddAnimal.NameForm" xml:space="preserve">
     <value>Add animal</value>
+  </data>
+  <data name="PageAddAnimal.NameFormUpdate" xml:space="preserve">
+    <value>Update Animal</value>
   </data>
   <data name="PageAddAnimal.PlaceholderName" xml:space="preserve">
     <value>Name</value>
@@ -159,7 +165,13 @@
   <data name="PageAnimals.RefInfo" xml:space="preserve">
     <value>Info</value>
   </data>
+  <data name="PageAnimals.RefUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
   <data name="PageAnimals.TextHead" xml:space="preserve">
     <value>Animals</value>
+  </data>
+  <data name="PageHome.Text" xml:space="preserve">
+    <value>Home page</value>
   </data>
 </root>

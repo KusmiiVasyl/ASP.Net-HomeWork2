@@ -13,16 +13,21 @@
             <h2 class="text-center mt-4 text-white">
                 @HomeWork2.Resources.Resource.PageAnimals_TextHead
             </h2>
-            <div class="card m-4">
+            <div class="card m-6">
                 <ul class="list-group list-group-flush" style="background-color: #006666">
                     @foreach (var animal in animals)
                     {
                         <li class="list-group-item bg-info m-2">
                             <div class="d-flex justify-content-between">
                                 <p class="mb-1 text-white">@animal.Name</p>
-                                <a class="mb-1 text-white" asp-page="/AnimalDetails" asp-route-animalId="@animal.Id">
-                                    @HomeWork2.Resources.Resource.PageAnimals_RefInfo
-                                </a>
+                                <div>
+                                    <a class="mb-1 me-2 text-white" asp-page="/AnimalDetails" asp-route-animalId="@animal.Id">
+                                        @HomeWork2.Resources.Resource.PageAnimals_RefInfo
+                                    </a>
+                                    <a class="mb-1 text-white" asp-page="/AddAnimal" asp-route-animalId="@animal.Id">
+                                        @HomeWork2.Resources.Resource.PageAnimals_RefUpdate
+                                    </a>
+                                </div>
                             </div>
                         </li>
                     }

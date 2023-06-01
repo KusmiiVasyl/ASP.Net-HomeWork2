@@ -162,4 +162,16 @@
   <data name="PageAddAnimal.PlaceholderName" xml:space="preserve">
     <value>Ім'я</value>
   </data>
+  <data name="PageHome.Text" xml:space="preserve">
+    <value>Домашня сторінка</value>
+  </data>
+  <data name="PageAddAnimal.NameFormUpdate" xml:space="preserve">
+    <value>Оновити тварину</value>
+  </data>
+  <data name="PageAddAnimal.BtnUpdate" xml:space="preserve">
+    <value>Оновити</value>
+  </data>
+  <data name="PageAnimals.RefUpdate" xml:space="preserve">
+    <value>Змінити</value>
+  </data>
 </root>

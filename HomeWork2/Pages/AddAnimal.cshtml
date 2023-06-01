@@ -1,14 +1,19 @@
 ﻿@page
 @model HomeWork2.Pages.AddAnimalModel
+@{
 
+}
 
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-sm-6">
             <h2 class="text-center mt-4 text-white mb-5">
-                @HomeWork2.Resources.Resource.PageAddAnimal_NameForm
+                @(Model.IsUpdate ? @HomeWork2.Resources.Resource.PageAddAnimal_NameFormUpdate : @HomeWork2.Resources.Resource.PageAddAnimal_NameForm)
             </h2>
             <form asp-action="/AddAnimal">
+                <div class="mb-3 visually-hidden">
+                    <input type="text" asp-for="InputAnimal!.Id" class="form-control" id="formGroupExampleInput">
+                </div>
                 <div class="mb-3 ">
                     <input type="text" asp-for="InputAnimal!.Name" class="form-control" id="formGroupExampleInput" placeholder=@HomeWork2.Resources.Resource.PageAddAnimal_PlaceholderName>
                     <span asp-validation-for="InputAnimal!.Name" class="form-label text-danger fw-bold h-100 d-inline-block"></span>
@@ -19,7 +24,7 @@
                 </div>
                 <div class="text-center">
                     <button type="submit" class="btn btn-primary mt-2 pe-4 ps-4 fw-bold text-uppercase" style="background-color: #004d4d; border:solid #b3ffff; color: #b3ffff;">
-                        @HomeWork2.Resources.Resource.PageAddAnimal_BtnAdd
+                        @(Model.IsUpdate ? @HomeWork2.Resources.Resource.PageAddAnimal_BtnUpdate : @HomeWork2.Resources.Resource.PageAddAnimal_BtnAdd)
                     </button>
                 </div>
             </form>
