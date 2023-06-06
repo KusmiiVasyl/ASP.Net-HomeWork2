@@ -21,6 +21,7 @@ namespace HomeWork2.Services
 
         public void Add(Animal animal)
         {
+            if (string.IsNullOrEmpty(animal.Name)|| string.IsNullOrEmpty(animal.Sound)) return;
             _animalRepository.Add(animal);
         }
     }

@@ -39,7 +39,7 @@ namespace HomeWork2.Repositories
 
         public void Add(Animal animal)
         {
-            Animal existingAnimal = _animals.FirstOrDefault(a => a.Id == animal.Id);
+            Animal existingAnimal = _animals.FirstOrDefault(a => a.Id == animal.Id);        
             if (existingAnimal != null)
             {
                 existingAnimal.Name = animal.Name;

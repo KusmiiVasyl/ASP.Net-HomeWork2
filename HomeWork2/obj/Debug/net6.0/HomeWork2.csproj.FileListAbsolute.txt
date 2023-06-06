@@ -32,3 +32,6 @@ E:\ASP.NET\Projects\HomeWork2\HomeWork2\obj\Debug\net6.0\uk\HomeWork2.resources.
 E:\ASP.NET\Projects\HomeWork2\HomeWork2\bin\Debug\net6.0\fr\HomeWork2.resources.dll
 E:\ASP.NET\Projects\HomeWork2\HomeWork2\obj\Debug\net6.0\HomeWork2.Resources.Resource.fr.resources
 E:\ASP.NET\Projects\HomeWork2\HomeWork2\obj\Debug\net6.0\fr\HomeWork2.resources.dll
+E:\ASP.NET\Projects\HomeWork2\HomeWork2\bin\Debug\net6.0\Castle.Core.dll
+E:\ASP.NET\Projects\HomeWork2\HomeWork2\bin\Debug\net6.0\FakeItEasy.dll
+E:\ASP.NET\Projects\HomeWork2\HomeWork2\obj\Debug\net6.0\HomeWork2.csproj.CopyComplete
