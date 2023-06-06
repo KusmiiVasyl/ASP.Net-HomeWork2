@@ -1,9 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using FakeItEasy;
 
 namespace TestHomeWork2
 {
     [TestClass]
-    public class UnitTest1
+    public class AnimalServiceTests
     {
         [TestMethod]
         public void TestMethod1()

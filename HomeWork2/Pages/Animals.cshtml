@@ -1,10 +1,10 @@
 ﻿@page
 @using HomeWork2.Services
+@using HomeWork2.Interfaces
+@inject IAnimalService AnimalService
 
-
-@model HomeWork2.Pages.AnimalsModel
 @{
-    var animals = AnimalService.GetAnimals();
+    var animals = AnimalService.GetAll();
 }
 
 <div class="container">

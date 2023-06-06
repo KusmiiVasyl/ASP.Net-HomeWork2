@@ -9,6 +9,14 @@
       "HomeWork2/1.0.0": {
         "runtime": {
           "HomeWork2.dll": {}
+        },
+        "resources": {
+          "fr/HomeWork2.resources.dll": {
+            "locale": "fr"
+          },
+          "uk/HomeWork2.resources.dll": {
+            "locale": "uk"
+          }
         }
       }
     }

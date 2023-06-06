@@ -1,4 +1,7 @@
 using HomeWork2.Resources;
+using HomeWork2.Services;
+using HomeWork2.Interfaces;
+using HomeWork2.Repositories;
 using Microsoft.AspNetCore.Localization;
 using System.Globalization;
 
@@ -20,6 +23,11 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
     options.SupportedCultures = supportedCultures;
     options.SupportedUICultures = supportedCultures;
 });
+
+
+builder.Services.AddScoped<IAnimalService, AnimalService>();
+builder.Services.AddSingleton<IAnimalRepository, AnimalRepository>();
+
 
 var app = builder.Build();
 
