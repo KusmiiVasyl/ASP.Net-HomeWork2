@@ -55,5 +55,14 @@ namespace HomeWork2.Repositories
                 });
             }
         }
+
+        public void Delete(Animal animal)
+        {
+            Animal animalToDelete = _animals.FirstOrDefault(a => a.Id == animal.Id);
+            if(animalToDelete != null)
+            {
+                _animals.Remove(animal);
+            }
+        }
     }
 }

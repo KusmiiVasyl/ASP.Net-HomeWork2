@@ -6931,9 +6931,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ASP.NET\\Projects\\HomeWork2\\TestHomeWork2\\TestHomeWork2.csproj",
-      "projectName": "TestHomeWork2",
-      "projectPath": "E:\\ASP.NET\\Projects\\HomeWork2\\TestHomeWork2\\TestHomeWork2.csproj",
+      "projectUniqueName": "E:\\ASP.NET\\Projects\\HomeWork2\\TestHomeWork2\\HomeWork2.Tests.csproj",
+      "projectName": "HomeWork2.Tests",
+      "projectPath": "E:\\ASP.NET\\Projects\\HomeWork2\\TestHomeWork2\\HomeWork2.Tests.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "E:\\ASP.NET\\Projects\\HomeWork2\\TestHomeWork2\\obj\\",
       "projectStyle": "PackageReference",

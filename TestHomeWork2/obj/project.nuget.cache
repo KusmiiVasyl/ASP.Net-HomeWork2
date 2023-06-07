@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5gOzkEd7iELpfT2pdkAJ96snMvxpURR/d5ta+gw9VdFt8Kw5bUFcH08xb60mQrCxAcEhLsWpZIRqPubcWGzBUA==",
+  "dgSpecHash": "D9XklpntTTq9wULG8DkBQWfxPe3umu8D3vEfhjNbFmYnaPmWdmtIo2dILZniy7OlsMWkVn7LqxvSezBLxXS3RQ==",
   "success": true,
-  "projectFilePath": "E:\\ASP.NET\\Projects\\HomeWork2\\TestHomeWork2\\TestHomeWork2.csproj",
+  "projectFilePath": "E:\\ASP.NET\\Projects\\HomeWork2\\TestHomeWork2\\HomeWork2.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\castle.core\\4.3.1\\castle.core.4.3.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",

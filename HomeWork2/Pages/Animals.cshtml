@@ -1,11 +1,7 @@
 ﻿@page
 @using HomeWork2.Services
 @using HomeWork2.Interfaces
-@inject IAnimalService AnimalService
-
-@{
-    var animals = AnimalService.GetAll();
-}
+@model AnimalsModel
 
 <div class="container">
     <div class="row justify-content-center">
@@ -15,7 +11,7 @@
             </h2>
             <div class="card m-6">
                 <ul class="list-group list-group-flush" style="background-color: #006666">
-                    @foreach (var animal in animals)
+                    @foreach (var animal in @Model.GetAnimals)
                     {
                         <li class="list-group-item bg-info m-2">
                             <div class="d-flex justify-content-between">
@@ -27,6 +23,9 @@
                                     <a class="mb-1 text-white" asp-page="/AddAnimal" asp-route-animalId="@animal.Id">
                                         @HomeWork2.Resources.Resource.PageAnimals_RefUpdate
                                     </a>
+                                    <a asp-page="/Animals" asp-page-handler="delete" asp-route-id="@animal.Id">
+                                       <i class="fas fa-trash ms-2" style="color: darkred"> </i>
+                                    </a>                     
                                 </div>
                             </div>
                         </li>
