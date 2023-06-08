@@ -157,3 +157,4 @@ E:\ASP.NET\Projects\HomeWork2\TestHomeWork2\obj\Debug\net6.0\refint\HomeWork2.Te
 E:\ASP.NET\Projects\HomeWork2\TestHomeWork2\obj\Debug\net6.0\HomeWork2.Tests.pdb
 E:\ASP.NET\Projects\HomeWork2\TestHomeWork2\obj\Debug\net6.0\HomeWork2.Tests.genruntimeconfig.cache
 E:\ASP.NET\Projects\HomeWork2\TestHomeWork2\obj\Debug\net6.0\ref\HomeWork2.Tests.dll
+E:\ASP.NET\Projects\HomeWork2\TestHomeWork2\bin\Debug\net6.0\libman.json

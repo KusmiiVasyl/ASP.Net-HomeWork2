@@ -35,7 +35,7 @@ namespace HomeWork2.Repositories
 
         public List<Animal> GetAll() => _animals;
 
-        public Animal Get(int id) => _animals.Single(a => a.Id == id);
+        public Animal Get(int id) => _animals.SingleOrDefault(a => a.Id == id);
 
         public void Add(Animal animal)
         {
@@ -56,12 +56,12 @@ namespace HomeWork2.Repositories
             }
         }
 
-        public void Delete(Animal animal)
+        public void Delete(int id)
         {
-            Animal animalToDelete = _animals.FirstOrDefault(a => a.Id == animal.Id);
+            Animal animalToDelete = _animals.FirstOrDefault(a => a.Id == id);
             if(animalToDelete != null)
             {
-                _animals.Remove(animal);
+                _animals.Remove(animalToDelete);
             }
         }
     }

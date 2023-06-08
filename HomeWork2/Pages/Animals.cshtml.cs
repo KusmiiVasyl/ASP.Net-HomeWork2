@@ -21,7 +21,7 @@ namespace HomeWork2.Pages
             Animal animal = GetAnimals.SingleOrDefault(a => a.Id == id);
             if(animal != null)
             {
-                _animalRepository.Delete(animal);
+                _animalRepository.Delete(animal.Id);
             }
             return RedirectToPage("/Animals");
         }

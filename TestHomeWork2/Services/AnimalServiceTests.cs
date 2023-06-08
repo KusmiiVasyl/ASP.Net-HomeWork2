@@ -103,5 +103,30 @@ namespace TestHomeWork2
             //Assert
             result.ShouldBe(expectedResult);
         }
+
+        [TestMethod]
+        [DataRow(1, true)]
+        [DataRow(8, false)]
+        public void Delete_ShouldDeleteExistAnimal(int animalId, bool callsDeleteMethod)
+        {
+            //Arrange
+            var animals = new List<Animal>
+            {
+                new Animal() { Id = 1, Name = "Dog", Sound = "Woof-woof" },
+                new Animal() { Id = 2, Name = "Cat", Sound = "Miaw-miaw" },
+                new Animal() { Id = 3,  Name = "Cow", Sound = "My-y-y-y" },
+                new Animal()  { Id = 4, Name = "Frog", Sound = "Kwa-kwa" }
+            };
+            Animal animalToDelete = animals.SingleOrDefault(a => a.Id == animalId);
+            A.CallTo(() => _animalRepository.GetAll()).Returns(animals);
+            A.CallTo(() => _animalRepository.Get(animalId)).Returns(animalToDelete);
+
+            //Act
+            _animalService.Delete(animalId);
+            var resultForCallDeleteMethod = Fake.GetCalls(_animalRepository).Any(call => call.Method.Name == "Delete");
+
+            //Assert
+            resultForCallDeleteMethod.ShouldBe(callsDeleteMethod);
+        }
     }
 }

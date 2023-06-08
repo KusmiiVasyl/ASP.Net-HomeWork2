@@ -7,6 +7,6 @@ namespace HomeWork2.Interfaces
         List<Animal> GetAll();
         Animal Get(int id);
         void Add(Animal animal);
-        void Delete(Animal animal);
+        void Delete(int id);
     }
 }
