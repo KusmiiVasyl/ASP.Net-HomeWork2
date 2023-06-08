@@ -72,3 +72,11 @@ Task
 Для демонстрації своєї майстерності можна дописати складнішу логіку в сервісах і додати тести для цієї логіки. Ви можете вибрати більш складні сценарії або розширити функціональність сервісу і написати відповідні тести.
 
 Запустіть тести і переконайтеся, що вони успішно працюють і відображають правильні результати.
+
+![image](https://github.com/KusmiiVasyl/ASP.Net-HomeWork2/assets/90526809/1c3e2277-1a24-4a0d-a863-578f41ab6bab)
+![image](https://github.com/KusmiiVasyl/ASP.Net-HomeWork2/assets/90526809/5cb62526-5768-4edf-8b3c-e74d074e0866)
+![image](https://github.com/KusmiiVasyl/ASP.Net-HomeWork2/assets/90526809/9f0391ad-5fe1-4253-b7d8-37926cd85dd0)
+![image](https://github.com/KusmiiVasyl/ASP.Net-HomeWork2/assets/90526809/57a066bb-d8b9-4895-8c7f-c8b42bb4de1b)
+![image](https://github.com/KusmiiVasyl/ASP.Net-HomeWork2/assets/90526809/1bba7285-1d05-42a0-940d-21553326654b)
+
+
